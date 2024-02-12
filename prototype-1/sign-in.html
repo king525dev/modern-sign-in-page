@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-</head>
-<body>
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <!-- Font Styles -->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+          <!-- Icon -->
+          <link rel="icon" href="resources/icon.png">
+
+          <!-- Stylesheets-->
+          <link rel="stylesheet" href="styles/index.css">
+
+          <title>Sign-In</title>
+     </head>
+     <body>
+
+          <div class="bg"></div>
+          <div class="bg bg2"></div>
+          <div class="bg bg3"></div>
      
-</body>
+          <div class="sign-wrapper">
+               <header class="sign">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19.099 11.136c-1.449 1.97-3.599 3.914-6.021 3.597-.655.916-1.387 2.194-2.199 3.678l-1.879.589c1.589-3.101 3.712-6.53 5.989-9.136-.986.642-2.606 2.023-4.016 3.479-1.271-2.656.069-5.115 2.012-6.994-.056.885.337 1.692.631 2.107-.05-.74.036-2.062.576-3.207 1.082-.913 2.039-1.57 3.132-2.145-.177.647-.025 1.423.182 1.907.095-.67.494-1.937.955-2.462 1.364-.88 3.384-1.584 5.539-1.548-.238 1.328-.936 3.484-1.877 4.821-.761.489-1.766.775-2.566.913.663.186 1.407.24 2.052.192-.469.987-.946 1.891-1.667 3-.995.555-2.267.8-3.135.846.607.319 1.714.505 2.292.363zm-1.099 4.009v5.855h-16v-12h6.875c.229-.673.547-1.342.979-2h-9.854v16h20v-9.788c-.574.679-1.239 1.355-2 1.933z"/></svg>
+                    <p class="logo-sign">Lorem</p>
+               </header>
+               <main class="sign">
+                    <h3 class="register-title">Login to your Account</h3>
+                    <div id="error-txt" class="error-txt">Error Msg</div>
+                    <div id="error-txt2" class="error-txt">Error Msg</div>
+                    <form id="sign-in-form" class="sign sign-in" action="#">
+                         <input class="sign-input email" id="email" type="email" placeholder="Enter your email" required />
+                         <div class="pass">
+                              <input class="sign-input passwrd" id="password" type="password"
+                                   placeholder="Enter your password" required />
+                              <i id="toggle" class="fa-solid fa-eye"></i>
+                         </div>
+                         <input class="sign-submit" type="submit" id="submit" value="Login" />
+                    </form>
+                    <small class="sign-link">Don't have an account? <a href="sign-up.html">Sign-up Now!</a></small>
+               </main>
+          </div>
+
+     </body>
 </html>
+<!-- ORE.A. ORIGINAL -->

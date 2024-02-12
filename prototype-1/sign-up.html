@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <!-- Font Styles -->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+          <!-- Icon -->
+          <link rel="icon" href="resources/icon.png">
+
+          <!-- Stylesheets-->
+          <link rel="stylesheet" href="styles/index.css">
+
+          <title>Sign-In</title>
+     </head>
+     <body>
+
+          <div class="bg"></div>
+          <div class="bg bg2"></div>
+          <div class="bg bg3"></div>
+     
+          <div class="sign-wrapper">
+               <header class="sign">
+                    <img src="resources/Taskmaster Brand Kit/Taskmaster-logo-light.png" alt="" class="logo" id="logo">
+                    <p class="logo-sign">Taskmaster</p>
+               </header>
+               <main class="sign">
+                    <h3 class="register-title">Create an Account</h3>
+                    <div id="error-txt" class="error-txt">Error Msg</div>
+                    <div id="error-txt2" class="error-txt">Error Msg</div>
+                    <form id="sign-up-form" class="sign sign-in" action="#">
+                         <input class="sign-input fname" id="fname" type="text" placeholder="Enter your first name"
+                              required />
+                         <input class="sign-input lname" id="lname" type="text" placeholder="Enter your last name"
+                              required />
+                         <input class="sign-input email" id="email" type="email" placeholder="Enter your email" required />
+                         <div class="pass">
+                              <input class="sign-input passwrd" id="password" type="password"
+                                   placeholder="Enter your password" required />
+                              <i id="toggle" class="fa-solid fa-eye"></i>
+                         </div> <input class="sign-submit" id="submit" type="submit" value="Create my account" />
+                    </form>
+                    <small class="sign-link">Already have an account? <a href="sign-in.html">Login Now!</a></small>
+               </main>
+          </div>
+
+          <!-- Scripts -->
+          <script src="https://kit.fontawesome.com/725fb09d99.js" crossorigin="anonymous"></script>
+     </body>
+</html>
