@@ -209,9 +209,13 @@ small.sign-link a:hover {
 
 header.sign {
      background: linear-gradient(45deg,
-               var(--colour6),
                var(--colour5),
                var(--colour7));
+}
+
+header img{
+     width: 7em;
+     color: var(--white);
 }
 
 p.logo-sign {
